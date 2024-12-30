@@ -1,0 +1,17 @@
+{
+    "name": "PreFigure-Codespaces",
+    "image": "davidaustinm/prefig",
+    "postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["examples/tangent.xml"]
+        },
+        "vscode": {
+            "extensions": [
+                "vitaliymaz.vscode-svg-previewer",
+                "redhat.vscode-xml"
+            ]
+        }
+    }
+}
